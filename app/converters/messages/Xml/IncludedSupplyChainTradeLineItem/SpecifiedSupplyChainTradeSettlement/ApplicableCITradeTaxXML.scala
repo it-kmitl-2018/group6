@@ -2,5 +2,5 @@ package converters.messages.Xml.IncludedSupplyChainTradeLineItem.SpecifiedSupply
 
 case class ApplicableCITradeTaxXML(
     typeCode: String,
-    calculatedRate: Int,
+    calculatedRate: Float,
     basisAmount: Double)
