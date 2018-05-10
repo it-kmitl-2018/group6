@@ -4,7 +4,7 @@ import converters.messages.Json._
 
 import scala.collection.mutable.ListBuffer
 
-object ConverterTestData {
+object JsonConverterTestData {
   private val address = Address("building 789", "sukhumvit asjdh district bangkok 123",
     "district", "asjdh", "123", "bangkok", "thailand")
   private val seller = Seller("taxPayerId", "", "", "name", "email", "", "", address)
